@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<!-- 
+object -- objects are similar to array, but it is advance version of the array
+we see that array has index in numbers 0 1 2... , but in objects the index has names(properties) eg firstName, lastName... the names are strong points of objects, in objects you can also store arrays and multiple functions.
+-->
+<script type="text/javascript">
+	// var a = ["Anurag", "Chiplunkar", 32, "Country"];
+	
+	// a.forEach(function(value, index){
+	// 	document.write(index + " : " + value + "<br><br>")
+	// });
+
+	var a = {
+		firstName: "Anurag",
+		lastName: "Chiplunkar",
+		age: 32,
+		email: "anurag.chiplunkar@gmail.com",
+		country: "India",
+		favMovies: ["Dhoom", "Sholay", "Hum"],
+		living: {
+			city:"Thane",
+			state:"Maharashtra",
+			country:"India"
+		},
+		salary: function(){
+			return 25000;
+		},
+		fullName: function(){
+			return this.firstName + " " + this.lastName
+		},
+		age: 20,
+
+	};
+
+// // this -- this is used to define the owner of the object which in this case is "a"
+// // salary and fullName are called as methods
+// // firstName, lastName, age, email, country, favMovies are called as proerties
+
+		document.write(a + "<br><br>")
+		document.write(typeof(a) + "<br><br>")
+		console.log(a)
+		console.log(a.firstName)
+		console.log(a.age)
+		document.write(a.firstName + "<br><br>")
+		document.write(a.favMovies + "<br><br>")
+		document.write(a.favMovies[0] + "<br><br>")
+		document.write(a.living.city + "<br><br>")
+		document.write(a.living.state + "<br><br>")
+		document.write(a.salary() + "<br><br>")
+		document.write(a.fullName())
+
+</script>
+</body>
+</html>

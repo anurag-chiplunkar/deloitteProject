@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<!-- Till now we have seen
+String 
+Nmumber
+Boolean
+
+Now we will learn
+Array
+
+var a = 10;
+var a = 10, 20, 30 this will give an error 
+var a = [10,20,30] this is used to create an arrays, each element is a single value for a
+
+var a = [10,20,30]
+          0  1  2   index
+          -3 -2 -1  negative index -->
+
+<script>
+	
+	var ary = [10,20,30,40,50];
+	var sum = 0;
+	document.write(ary + "<br><br>");
+	document.write(ary[0] + "<br><br>");
+	document.write(ary[4] + "<br><br>");
+	document.write(ary[5] + "<br><br>");
+	document.write(ary[5] + "<br><br>");
+
+	for(var a = 0; a <= 4; a++){
+		document.write(ary[a] + "<br>");
+		sum = sum + ary[a];
+		document.write(sum + "<br><br>");
+	}
+	document.write("Total Sum: " + sum);
+
+</script>
+
+
+</body>
+</html>

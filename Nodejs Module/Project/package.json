@@ -1,0 +1,50 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^6.8.0"
+  }
+}
+
+
+
+
+
+
+
+
+
+[{
+  "sr.no": "1",
+  "productName": "Samsung",
+  "productPrice": "63000",
+  "productDescription": "aslkhfkjfabgvolisdfbvlasbvldsn",
+  "productModel": "S22",
+  "productQuantity": "15"
+},
+
+{
+  "sr.no": "1",
+  "productName": "Samsung",
+  "productPrice": "63000",
+  "productDescription": "aslkhfkjfabgvolisdfbvlasbvldsn",
+  "productModel": "S22",
+  "productQuantity": "15"
+},
+
+{
+  "sr.no": "1",
+  "productName": "Samsung",
+  "productPrice": "63000",
+  "productDescription": "aslkhfkjfabgvolisdfbvlasbvldsn",
+  "productModel": "S22",
+  "productQuantity": "15"
+}]

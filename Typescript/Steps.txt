@@ -1,0 +1,29 @@
+1. Install TypeScript compiler
+
+npm install -g typescript
+
+tsc --v
+
+
+
+2. 'tsc' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\<user>\AppData\Roaming\npm -------> to the PATH variable.
+
+
+
+3. 
+npm install -g ts-node
+
+
+4. to compile and create a javascript file use
+tsc app.ts
+
+
+5. to execute the typescript file use
+ts-node app.ts
+
+
+6. to execute the javascript file use
+node app.js

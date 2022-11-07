@@ -1,0 +1,1 @@
+alert("This is the second script.js file")

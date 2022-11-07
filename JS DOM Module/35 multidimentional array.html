@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+<!-- this array has no relation with eachother
+var a = [10,20,30,40,50];
+var b = ['anurag', 'sunny', 'bunny']
+
+array with relation is
+name gender age -->
+
+<script type="text/javascript">
+	
+	var ary = [
+		["Anurag", 20, "Male", "B.Com"],
+		["Tanushree", 20, "Female", "B.Com"],
+		["Sanjay", 20, "Male", "M.Com"],
+		["Vedant", 20, "Male", "Engineering"],
+		["Sammak", 20, "Male", "B.Com"],
+		["Anu", 20, "Female", "B.Com"],
+	];
+
+	document.write(ary)
+
+	// document.write(ary[2][0]);
+	document.write("<table border='2px' cellspacing='2'>")
+	for(var a = 0; a <= ary.length; a++){
+		document.write("<tr>");
+		for(var b = 0; b < ary[a].length; b++){
+			document.write("<td>" + ary[a][b] + "</td>");
+		}
+		document.write("</tr>");
+	}
+	document.write("</table>")
+</script>
+</body>
+</html>

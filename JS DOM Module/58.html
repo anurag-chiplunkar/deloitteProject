@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<!-- Numbers Methods:
+
+number()
+parselnt()
+parseFloat()
+inFinite()
+isInteger()
+toFixed(x)
+toPrecision(x) -->
+
+
+<script type="text/javascript">
+	var a = "99";
+
+	document.write(a + 10 + "<br><br>");
+
+	// to convert a into number
+	var num = Number(a);
+
+	document.write(num + 10 + "<br><br>");
+
+
+	var b = true;
+	var num = Number(b);
+	document.write(num + "<br><br>");
+	
+	var b = false;
+	var num = Number(b);
+	document.write(num + "<br><br>");
+
+	// str = "98 88"
+	// str = "10.00"
+	// str = "98 years"
+	str = "he was 98"
+
+	var num = parseInt(str);  // parseint will convert into integer
+	// var num = parseFloat(str);
+	document.write(num + "<br><br>");
+
+	var abc = "100" 
+	var abc = -1.55;
+	var abc = "hello";
+	var abc = Infinity;
+
+	var a =  isFinite(abc); //will return true or false
+	document.write(a + "<br><br>");
+
+	var abc = "100";
+	var abc = 100; 
+	var abc = true;
+	var abc = -1.55;
+	var abc = "hello";
+	var a = Number.isInteger(abc); //will return true or false
+	document.write(a + "<br><br>");
+
+	var abc = "100";
+	var abc = 5.5481; 
+	var abc = true;
+	var abc = -1.55;
+	var abc = "hello";
+	var a = abc.toFixed(2); // will make 5.54, and works only on numbers
+	document.write(a + "<br><br>");
+
+	var a = abc.toFixed(3); // will make 5.548, and works only on numbers
+	document.write(a + "<br><br>");
+
+	var a = abc.toPrecision(3); // will give overall 2 numbers including integer and decimal
+	document.write(a + "<br><br>");
+</script>
+</body>
+</html>

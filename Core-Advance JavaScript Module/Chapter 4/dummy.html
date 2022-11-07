@@ -1,0 +1,28 @@
+!<!DOCTYPE html>
+<html>
+
+<head>
+    <script>
+    function loadScript(src, callback) {
+        let script = document.createElement('script');
+        script.src = src;
+        script.onload = () => callback(script);
+        alert("Error")
+        document.head.append(script);
+      }
+    
+    loadScript('script.js', function(script) {
+    
+      alert(`Cool, the ${script.src} is loaded, let's load one more`);
+    
+      loadScript('script2.js', function(script) {
+        alert(`Cool, the second script is loaded`);
+      });
+    });
+</script>
+</head>
+
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+	<!-- some(function) checks if any of the elements in an array pass a test, if any element passes the test then output is true else false
+	
+	every() unlike some,it checks on each element on the array,  if all elements gives true then only we get true at the output or false -->
+
+
+	<script type="text/javascript">
+	var ages = [10,25,68,48,65,36,44,42,87,89,32,15,12,14,13,11];
+	document.write(ages + "<br>");
+
+	var b = ages.some(checkAdult);
+	document.write(b + "<br><br>");
+
+	function checkAdult(age){
+		return age >= 18;
+	}
+
+	var b = ages.every(checkAdult);
+	document.write(b + "<br><br>");
+
+	function checkAdult(age){
+		return age <= 10;
+	}
+
+
+	</script>
+</body>
+</html>

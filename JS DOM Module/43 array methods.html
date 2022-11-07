@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	
+	<!-- indexOF("Search item", Start) returns the first occurence -->
+	<!-- lastIndexOf("Search item", Start) return the first occurence from the last -->
+
+<script type="text/javascript">
+	var a = ["Anurag", "Tanushree", "Sanjay", "Anurag", "Bandu"];
+	document.write(a + "<br>");
+
+	var b = a.indexOf("Anurag");
+	document.write(b + "<br>");
+
+	b = a.indexOf("Anurag", 1);
+	document.write(b + "<br>");
+
+	b = a.indexOf("Lion");
+	document.write(b + "<br>");
+
+	// //lastIndexOf()
+	a = ["Anurag", "Tanushree", "Sanjay", "Anurag", "Bandu", "Anurag"];
+	document.write(a + "<br>");
+
+	b = a.lastIndexOf("Anurag");
+	document.write(b + "<br>");
+
+	b = a.lastIndexOf("Anurag", 4);
+	document.write(b + "<br>");
+
+	b = a.lastIndexOf("Lion");
+	document.write(b + "<br>");
+
+</script>
+</body>
+</html>

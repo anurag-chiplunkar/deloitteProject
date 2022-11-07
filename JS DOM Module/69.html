@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+resizeBy() -- this will just add the new dimentions to the existing dimentions 
+resizeTo() -- this will create a new window with increased size
+<button onclick="openWindow()">Open Window</button>
+<button onclick="resizeWindow()">Resize Window</button>
+
+<script type="text/javascript">
+	var myWindow;
+	function openWindow(){
+		myWindow = window.open("", "", "width=200px,height=200px,left=300,top=30px");
+		myWindow.document.write("<p>This is myWindow.</p>")
+	}
+
+	function resizeWindow(){
+		// myWindow.resizeTo(400,400);   // this will resize the window
+		myWindow.resizeBy(400,400);   // this will resize the window
+	} 
+</script>
+</body>
+</html>

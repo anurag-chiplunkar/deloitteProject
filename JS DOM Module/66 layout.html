@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Layout</title>
+	<style type="text/css">
+		body{
+			font-family: arial, helvetica;
+			background: slategray;
+			margin: 0;
+			padding: 0px;
+		}
+
+		#wrapper{
+			border: 1px solid black;
+			width: 1000px;
+			background: white;
+			margin: 0 auto;
+		}
+
+		#header{
+			background: crimson;
+			height: 100px;
+			margin: 0px;
+			color: white;
+		}
+
+		#header h1{
+			padding: 30px 0 0 20px;
+			margin: 0;
+		}
+
+		#menu{
+			background: lightsalmon;
+		}
+
+		#menu li{
+			display: inline-block;
+		}
+
+		#menu li a{
+			display: block;
+			padding: 10px 15px;
+			text-decoration: none;
+			color: black;
+		}
+		
+		#menu li a:hover{
+			background: crimson;
+			color: white;
+		}
+
+		#content{
+			width: 800px;
+			float: left;
+			min-height: 500px;
+			padding: 10px;
+			box-sizing: border-box;
+		}
+
+		#menu ul{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		#sidebar{
+			background: lightblue;
+			width: 200px;
+			float: right;
+			min-height: 500px;
+		}
+
+		#sidebar a{
+			text-decoration: none;
+			color: black;
+		}		
+
+		#footer{
+			background: lightsalmon;
+			clear: both;
+			padding: 5px 10px;
+			text-align: right;
+		}
+	</style>
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header" class="abc">
+			<h1>Cognitio</h1>
+		</div>
+		<div id="menu">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Gallery</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Contact Us</a></li>
+			</ul>
+		</div>
+		<div id="content">
+			<h2>Basic Design</h2>
+			<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+			<p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+		</div>
+		<div id="sidebar">
+			<ul>
+				<li><a href="">Home</a></li>
+				<li><a href="">Gallery</a></li>
+				<li><a href="">About Us</a></li>
+				<li><a href="">Contact Us</a></li>
+			</ul>
+		</div>
+		<div id="footer">
+			Cognitio@copyright2021
+		</div>
+	</div>
+
+<script type="text/javascript" src="66 addEvent.js"></script>
+</body>
+</html>

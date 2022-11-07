@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+<!-- filter(function name) the function should work on each element in the array and will return only those elements in array which satisfy the function condition -->
+<script type="text/javascript">
+	var age = [10,18,15,72,96,54,31];
+	document.write(age + "<br>");
+
+	// it will check all the elements in the array
+	var b = age.filter(checkAdult);
+	document.write(b + "<br>");
+
+
+	function checkAdult(age){
+		return age >= 18;
+	}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+<!-- forEach(function name) inbuilt function can be passed, it will run for each element. This same can be done using for or if loop. But this will save few lines of code, as no initialization of new variable, counter, length, etc. -->
+<script type="text/javascript">
+	var a = ["Anurag", "Sanjay", "Tanushree", "Karishma", "Shilpa"];
+	
+	a.forEach(function(value, index){
+		document.write(index + " : " + value + "<br><br>")
+	});
+
+
+	a.forEach(loop);
+
+	function loop(value, index){
+		document.write(index + " : " + value + "<br><br>")
+	}
+
+</script>
+</body>
+</html>

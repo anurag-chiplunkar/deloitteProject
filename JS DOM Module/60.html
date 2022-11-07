@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+<!-- Date Methods
+Condition: First make a variable an object of date
+toDateString()
+getDate()
+getFullYear()
+getMonth()
+getDay() (0: Sunday, 1: Monday)
+getHours()
+getMinutes()
+getSeconds()
+getMilliseconds()
+setDate()
+setFullYear()
+setHours()
+setMilliseconds()
+setMinutes()
+setMonth()
+setSeconds() -->
+<script type="text/javascript">
+	
+	var now = new Date();
+	now = new Date('September 26 2021');
+	document.write(now + "<br><br>");
+	document.write(now.toDateString() + "<br><br>");
+	document.write(now.getDate() + "<br><br>");
+	document.write(now.getFullYear() + "<br><br>");
+	document.write(now.getMonth() + "<br><br>");
+	document.write(now.getDay() + "<br><br>");
+	document.write(now.getHours() + "<br><br>");
+	document.write(now.getMinutes() + "<br><br>");
+	document.write(now.getSeconds() + "<br><br>");
+	document.write(now.getMilliseconds() + "<br><br>");
+
+	now.setDate(20);
+	now.setFullYear(2021);
+	now.setMonth(4);
+	now.setHours(16);
+	now.setMinutes(20);
+
+	document.write(now + "<br><br>");
+
+	document.write(now.getDate() + "/" + now.getMonth() + "/" + now.getFullYear() + "<br><br>");
+
+
+
+</script>
+</body>
+</html>

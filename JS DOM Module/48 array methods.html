@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+<!-- 
+toString() to convert an array to a string and returns a string
+
+valueOf() default function, it is used to returns the array. But the same can be done by giving simply the variable name. Not much usefull.
+
+fill() to fill the array with an static element or value. Not much usefull
+
+ -->
+<script type="text/javascript">
+	var names = ["Anurag", "Sanjay", "Tanushree", "Karishma", "Shilpa"];
+	document.write(names + "<br>");
+	document.write(typeof(names) + "<br>");
+	document.write(names.valueOf() + "<br>");
+
+	var b = names.toString();
+	document.write('This is b: ' + b + "<br>");
+	document.write(typeof(b) + "<br>");
+
+	var c = names.fill("Default");
+	document.write(c + "<br><br>")
+
+</script>
+</body>
+</html>

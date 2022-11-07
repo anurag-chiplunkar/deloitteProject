@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	var str = "JavaScript is a great scripting language";
+
+	var a = str.length;
+	document.write(a + "<br><br>");
+
+	var a = str.toLowerCase();
+	document.write(a + "<br><br>");
+
+	var a = str.toUpperCase();
+	document.write(a + "<br><br>");
+
+	var a = str.includes("Great");
+	document.write(a + "<br><br>");
+	
+	var a = str.includes("great");
+	document.write(a + "<br><br>");
+
+	var a = str.startsWith("Java");
+	document.write(a + "<br><br>");
+
+	var a = str.endsWith("ages");
+	document.write(a + "<br><br>");
+
+	var a = str.search("is");   // gives the index of the string, if found gives the index, or -1
+	document.write(a + "<br><br>");
+
+	var str = "JavaScript is a Great is Language";
+	// g = globally
+	// /string/g
+	var a = str.match(/is/g);
+	document.write(a + "<br><br>");
+
+	var a = str.indexOf("is") // will return the index of the first occurence from left
+	document.write(a + "<br><br>");
+
+
+	var a = str.lastIndexOf("is");
+	document.write(a + "<br><br>");
+
+	var a = str.replace("JavaScript", "Python");
+	document.write(a + "<br><br>");
+
+	var a = str.replace(/is/g, "are");
+	document.write(a + "<br><br>");
+
+	var str = "   Anurag      "
+	var a = str.trim() // to remove extra spaces
+	document.write(a + "<br><br>");
+
+</script>
+
+</body>
+</html>

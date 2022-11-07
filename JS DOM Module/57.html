@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+
+<script type="text/javascript">
+	var str = "JavaScript is a Great Scripting Language";
+
+	 a = str.charAt(3);
+	document.write(a + "<br><br>");
+
+	 a = str.charCodeAt(1);   // will return the ascii code
+	document.write(a + "<br><br>");
+
+	 a = String.fromCharCode(68);   // String is inbuilt object will return the ascii code on button 2 on keyboard
+	document.write("This is from char code: "+ a + "<br><br>");
+
+	str2 = " Hello"
+	str3 = " Hello"
+
+	 a = str.concat(str2, str3);
+	document.write(a + "<br><br>");
+	
+	 a = str.split(" ");
+	document.write(a + "<br><br>");
+
+	 a = str.repeat(2);
+	document.write(a + "<br><br>");
+
+	// str.slice(start, stop);
+	 a = str.slice(3); // from 3 to entire left
+	// var a = str.slice(-1); // from 3 to entire left
+	document.write(a + "<br><br>");
+
+	 a = str.substr(2); // from index 2 to end
+	 a = str.substr(2, 5); // from index 2 to 5 characters
+	document.write(a + "<br><br>");
+
+	 a = str.substring(3, 5); // will return only 3 and 4 and not 5
+	document.write(a + "<br><br>");
+
+	 str4 = 50;
+	 a = str4.toString(); // converts to string
+	document.write(a + 20 + "<br><br>");
+
+	 str = "JavaScript is a Great Language";
+	 a = str.valueOf();
+	document.write(a + "<br><br>");
+
+</script>
+</body>
+</html>
